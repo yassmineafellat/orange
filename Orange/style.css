@@ -1,0 +1,105 @@
+
+
+a {
+    text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@700&display=swap');
+
+
+h1 {
+    font-weight: bold;
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 109, 12);
+    padding: 3%;
+    font-family: 'Mohave', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2%;
+}
+
+
+
+a img {
+    margin: 16px;
+}
+
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ff6c23;
+    background-color: #ff6c23;
+    border-radius: 8px;
+    font-family: 'Mohave', sans-serif;
+    color: #fff;
+    font-size: 160%;
+}
+
+table {
+    width: 100%;
+}
+
+table tr {
+    margin-bottom: 10px;
+}
+
+table td {
+    padding: 5px;
+}
+
+h2 {
+    background-color: #000000;
+    font-weight: bold;
+    font-size: 260%;
+    color: rgb(255, 255, 255);
+    font-family: 'Mohave', sans-serif;
+padding: 1%;
+    letter-spacing: -2px; 
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #232323;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 160%;
+    font-family: 'Mohave', sans-serif;
+
+}
+
+input[type="reset"]:hover {
+    background-color: #484848;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    font-weight: 160%;
+    font-family: 'Mohave', sans-serif;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #383838;
+}
